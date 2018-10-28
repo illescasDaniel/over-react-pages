@@ -11,13 +11,15 @@ A template for react web apps with support for GitHub pages.
 
 It also includes some basic examples of the added components.
 
+To **deploy** your own **GitHub page** you have to:
+- Change the "homepage" attribute in `package.json`
+- Change `Routes.pageTitle` (src > config > routes.js)
+
 Start up
 ---------
 ```
 > yarn
 > yarn start // to test the app
-
-(change the "homepage" attribute in package.json)
 > yarn run deploy // uploads the app to your github pages repo
 ```
 
